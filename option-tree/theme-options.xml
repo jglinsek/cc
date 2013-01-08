@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+<apewp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>Header</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>logo</item_id>
+    <item_title>Logo</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Logo Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>img_logo</item_id>
+    <item_title>Logo</item_title>
+    <item_desc>The logo used in the left header area.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>value_header_padding_top</item_id>
+    <item_title>Header Top Padding</item_title>
+    <item_desc>The header top padding.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>value_header_padding_bottom</item_id>
+    <item_title>Header Bottom Padding</item_title>
+    <item_desc>The header bottom padding.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>text_logotagline</item_id>
+    <item_title>Logo Tagline</item_title>
+    <item_desc>The logo tagline text.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>submenu_animation_timings</item_id>
+    <item_title>Submenu Animation Timings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Submenu Animation Timings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>value_submenushow</item_id>
+    <item_title>Submenu Show Delay</item_title>
+    <item_desc>The submenu show delay value in milliseconds.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>8</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>value_submenuhide</item_id>
+    <item_title>Submenu Hide Delay</item_title>
+    <item_desc>The submenu hide delay value in milliseconds.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>9</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>value_submenuover</item_id>
+    <item_title>Submenu Over Time</item_title>
+    <item_desc>The submenu over time in milliseconds.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>value_submenuout</item_id>
+    <item_title>Submenu Out Time</item_title>
+    <item_desc>The submenu out time in milliseconds.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>117</id>
+    <item_id>favicons</item_id>
+    <item_title>Favicons</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>118</id>
+    <item_id>favicon_settings</item_id>
+    <item_title>Favicon Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Favicon Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>119</id>
+    <item_id>img_favicon16</item_id>
+    <item_title>Favicon Regular 16x16</item_title>
+    <item_desc>The regular favicon. Must be 16 x 16 in .ico format.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>120</id>
+    <item_id>img_favicon57</item_id>
+    <item_title>Favicon Apple Touch 57x57</item_title>
+    <item_desc>The apple touch 57 x 57 .png format favicon.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>121</id>
+    <item_id>img_favicon72</item_id>
+    <item_title>Favicon Apple Touch 72x72</item_title>
+    <item_desc>The apple touch 72 x 72 .png format favicon.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>122</id>
+    <item_id>img_favicon114</item_id>
+    <item_title>Favicon Apple Touch 114x114</item_title>
+    <item_desc>The apple touch 114 x 114 .png format favicon.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>layout</item_id>
+    <item_title>Layout</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>site_layout_settings</item_id>
+    <item_title>Site Layout Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Site Layout Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>value_headertopline</item_id>
+    <item_title>Header Top Line</item_title>
+    <item_desc>The layout of the header top line.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>column,full</item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>value_contentlayout</item_id>
+    <item_title>Content</item_title>
+    <item_desc>The layout of the main content area.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>column,full</item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>value_footerlayout</item_id>
+    <item_title>Footer</item_title>
+    <item_desc>The layout of the footer area.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>column,full</item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>value_subfooterlayout</item_id>
+    <item_title>Subfooter</item_title>
+    <item_desc>The layout of the subfooter area.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>column,full</item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>footer</item_id>
+    <item_title>Footer</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>footer_settings</item_id>
+    <item_title>Footer Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Footer Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>126</id>
+    <item_id>value_footerwidgetsactive</item_id>
+    <item_title>Footer Widgets Active</item_title>
+    <item_desc>Uncheck if you want to disable the widget area of the footer.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>text_footerleft</item_id>
+    <item_title>Subfooter Bottom Left Text</item_title>
+    <item_desc>The bottom left text line in the subfooter.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>text_footerright</item_id>
+    <item_title>Subfooter Social Tagline Text</item_title>
+    <item_desc>The bottom right text line in the subfooter.</item_desc>
+    <item_type>input</item_type>
+    <item_options>5</item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>value_footersocials</item_id>
+    <item_title>Subfooter Social Icons</item_title>
+    <item_desc>Activate or de-activate the social icons in the subfooter.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Facebook,Twitter,GooglePlus,Vimeo,Youtube,Linkedin,Flickr,Rss</item_options>
+    <item_sort>29</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>value_sociallinkfacebook</item_id>
+    <item_title>Facebook Link</item_title>
+    <item_desc>The link on the facebook button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>30</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>value_sociallinktwitter</item_id>
+    <item_title>Twitter Link</item_title>
+    <item_desc>The link on the twitter button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>31</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>value_sociallinkgoogleplus</item_id>
+    <item_title>GooglePlus Link</item_title>
+    <item_desc>The link on the googleplus button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>32</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>value_sociallinkvimeo</item_id>
+    <item_title>Vimeo Link</item_title>
+    <item_desc>The link on the vimeo button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>124</id>
+    <item_id>value_sociallinkyoutube</item_id>
+    <item_title>Youtube Link</item_title>
+    <item_desc>The link on the youtube button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>34</item_sort>
+  </row>
+  <row>
+    <id>125</id>
+    <item_id>value_sociallinkflickr</item_id>
+    <item_title>Flickr Link</item_title>
+    <item_desc>The link on the flickr button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>123</id>
+    <item_id>value_sociallinklinkedin</item_id>
+    <item_title>LinkedIn Link</item_title>
+    <item_desc>The link on the linkedin button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>value_sociallinkrss</item_id>
+    <item_title>RSS Link</item_title>
+    <item_desc>The link on the rss button.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>fonts</item_id>
+    <item_title>Fonts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>38</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>google_web_fonts</item_id>
+    <item_title>Google Web Fonts</item_title>
+    <item_desc>&amp;lt;h4 style=&amp;quot;color:#ff0000&amp;quot;&amp;gt;You can select the fonts from the &amp;quot;Google Web Fonts&amp;quot; directory &amp;lt;a href=&amp;quot;http://www.google.com/webfonts#ChoosePlace:select&amp;quot;&amp;gt;HERE&amp;lt;/a&amp;gt;&amp;lt;/h4&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>headline_and_menu_font</item_id>
+    <item_title>Font</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Headline Font&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>40</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>font_headlineurl</item_id>
+    <item_title>Headline Google Web Font URL</item_title>
+    <item_desc>The google web font URL of the font used for the headlines. Example: &amp;lt;strong&amp;gt;http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>41</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>font_headlinefamily</item_id>
+    <item_title>Headline Google Web Font Family</item_title>
+    <item_desc>The google web font family string for the headlines. Example: &amp;lt;strong&amp;gt;&amp;#039;PT Sans&amp;#039;, sans-serif&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>42</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>general_headlines</item_id>
+    <item_title>General Headlines</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;General Headlines&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>43</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>font_widgetfontsize</item_id>
+    <item_title>Widget Headline Font Size</item_title>
+    <item_desc>The font size of the widget headlines.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>font_pagetitlesize</item_id>
+    <item_title>Page Title Font Size</item_title>
+    <item_desc>The font size of the page titles.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>45</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>font_h1size</item_id>
+    <item_title>H1 Font Size</item_title>
+    <item_desc>Font size of the H1 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>46</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>font_h2size</item_id>
+    <item_title>H2 Font Size</item_title>
+    <item_desc>Font size of the H2 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>47</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>font_h3size</item_id>
+    <item_title>H3 Font Size</item_title>
+    <item_desc>Font size of the H3 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>48</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>font_h4size</item_id>
+    <item_title>H4 Font Size</item_title>
+    <item_desc>Font size of the H4 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>49</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>font_h5size</item_id>
+    <item_title>H5 Font Size</item_title>
+    <item_desc>Font size of the H5 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>50</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>font_h6size</item_id>
+    <item_title>H6 Font Size</item_title>
+    <item_desc>Font size of the H6 headline.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>51</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>body_text_settings</item_id>
+    <item_title>Body Text Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Body Text Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>52</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>font_bodysize</item_id>
+    <item_title>Body Text Font Size</item_title>
+    <item_desc>The font size of the main body font.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>53</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>font_bodylineheight</item_id>
+    <item_title>Body Text Font Line Height</item_title>
+    <item_desc>The line height of the main body font.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>54</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>menu_font_settings</item_id>
+    <item_title>Menu Font Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Menu Font Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>55</item_sort>
+  </row>
+  <row>
+    <id>46</id>
+    <item_id>font_menusize</item_id>
+    <item_title>Menu Font Size</item_title>
+    <item_desc>The font size of the main navigation menu.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>56</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>font_submenusize</item_id>
+    <item_title>Submenu Font Size</item_title>
+    <item_desc>The font size of the submenu.</item_desc>
+    <item_type>measurement</item_type>
+    <item_options></item_options>
+    <item_sort>57</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>colors</item_id>
+    <item_title>Colors</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>58</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>general_colors</item_id>
+    <item_title>Highlight Color</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Highlight Color&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>59</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>color_highlight</item_id>
+    <item_title>Theme Main Highlight Color</item_title>
+    <item_desc>The highlight color used in the theme. (Everything that is pink in the theme preview)</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>60</item_sort>
+  </row>
+  <row>
+    <id>51</id>
+    <item_id>homepage_layout</item_id>
+    <item_title>Homepage Layout</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>61</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>homepage_slider_layout</item_id>
+    <item_title>Homepage Slider Layout</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Homepage Slider Layout&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>62</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>value_homesliderlayout</item_id>
+    <item_title>Slider Layout</item_title>
+    <item_desc>The layout of the homepage slider. You can have a slider with a text area next to it, a full-width slider or deactivate the slider.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Full,With Text,Off</item_options>
+    <item_sort>63</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>homepage_portfolio_layout</item_id>
+    <item_title>Homepage Portfolio Layout</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Homepage Portfolio Layout&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>64</item_sort>
+  </row>
+  <row>
+    <id>55</id>
+    <item_id>value_homeportfoliolayout</item_id>
+    <item_title>Portfolio Layout</item_title>
+    <item_desc>You can choose if you want to display the home portfolio with categories, with no categories or disable the portoflio on the homepage.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Categories,No Categories,Off</item_options>
+    <item_sort>65</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>value_homeportfoliocount</item_id>
+    <item_title>Portfolio Count</item_title>
+    <item_desc>The number of portfolio entries you want to display on the homepage (if portfolio is activated). Set to 0 if you want to display the whole portfolio.
+&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Note: Select the portfolio you want to display, the amount of columns and the effect on the homepage under &amp;quot;Pages&amp;quot;&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>66</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>text_homeportfoliotitle</item_id>
+    <item_title>Portfolio Title</item_title>
+    <item_desc>The title text of the portfolio on the homepage.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>67</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>text_homeportfoliolinktext</item_id>
+    <item_title>Portfolio Title Tagline Link Text</item_title>
+    <item_desc>The text of the homepage portfolio title tagline link.
+&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Note: Leave this blank if you want to deactivate the tagline link&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>68</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>text_homeportfoliolinkurl</item_id>
+    <item_title>Portfolio Title Tagline Link Url</item_title>
+    <item_desc>The url link of the homepage portfolio title tagline.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>69</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>homepage_news_and_text</item_id>
+    <item_title>Homepage News and Text</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Homepage News / Text&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>70</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>value_newstextlayout</item_id>
+    <item_title>News And Text Layout</item_title>
+    <item_desc>You can select if you want to display the latest blog entries with a text block on the right, a full-width text or disable this feature.
+&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Note: You can set the text content in the editor area of the homepage under &amp;quot;Pages&amp;quot;&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>News And Text,Text And Sidebar,Full Text,Off</item_options>
+    <item_sort>71</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>value_homenewscount</item_id>
+    <item_title>News Count</item_title>
+    <item_desc>The number of blog posts you want to display on the homepage news area.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>72</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>text_homenewstitle</item_id>
+    <item_title>News Title</item_title>
+    <item_desc>The title text of the news area on the homepage.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>73</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>text_homenewslinktext</item_id>
+    <item_title>News Title Tagline Link Text</item_title>
+    <item_desc>The text of the homepage news title tagline link.
+&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Note: Leave this blank if you want to deactivate the tagline link&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>74</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>text_homenewslinkurl</item_id>
+    <item_title>News Title Tagline Link Url</item_title>
+    <item_desc>The url link of the homepage news title tagline.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>75</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>text_homeabouttitle</item_id>
+    <item_title>Text Area Title</item_title>
+    <item_desc>The title of the text content area on the homepage.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>76</item_sort>
+  </row>
+  <row>
+    <id>67</id>
+    <item_id>text_homepageaboutlinktext</item_id>
+    <item_title>About Title Tagline Link Text</item_title>
+    <item_desc>The text of the homepage text area title tagline link.
+&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Note: Leave this blank if you want to deactivate the tagline link&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>77</item_sort>
+  </row>
+  <row>
+    <id>68</id>
+    <item_id>text_homepageaboutlinkurl</item_id>
+    <item_title>About Title Tagline Link Url</item_title>
+    <item_desc>The url link of the homepage text area title tagline.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>78</item_sort>
+  </row>
+  <row>
+    <id>69</id>
+    <item_id>homepage_slider</item_id>
+    <item_title>Slider</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>79</item_sort>
+  </row>
+  <row>
+    <id>70</id>
+    <item_id>slider_settings</item_id>
+    <item_title>Slider Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Slider Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>80</item_sort>
+  </row>
+  <row>
+    <id>71</id>
+    <item_id>slider_home</item_id>
+    <item_title>Home Slider</item_title>
+    <item_desc>The homepage slider. You can add slides and captions.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+&amp;lt;strong&amp;gt;Image Size 700 x 350 px for a slider with text next to it. 940 x 350 px for the full-width slider&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>81</item_sort>
+  </row>
+  <row>
+    <id>72</id>
+    <item_id>text_homeslider</item_id>
+    <item_title>Slider Text</item_title>
+    <item_desc>The text displayed next to the slider when activated via &amp;quot;Homepage Layout&amp;quot;</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>7</item_options>
+    <item_sort>82</item_sort>
+  </row>
+  <row>
+    <id>73</id>
+    <item_id>slider_slideshowspeed</item_id>
+    <item_title>Slider Slideshow Speed</item_title>
+    <item_desc>The time each slide is displayed in milliseconds.&amp;lt;br/&amp;gt;Example: &amp;lt;strong&amp;gt;7000&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>83</item_sort>
+  </row>
+  <row>
+    <id>74</id>
+    <item_id>slider_animspeed</item_id>
+    <item_title>Slider Animation Speed</item_title>
+    <item_desc>The slide transition speed in milliseconds. &amp;lt;br/&amp;gt;Example: &amp;lt;strong&amp;gt;600&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>84</item_sort>
+  </row>
+  <row>
+    <id>75</id>
+    <item_id>slider_slideshow</item_id>
+    <item_title>Slider Slideshow Mode</item_title>
+    <item_desc>Activate or deactivate the slideshow.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>85</item_sort>
+  </row>
+  <row>
+    <id>76</id>
+    <item_id>slider_randomize</item_id>
+    <item_title>Slider Randomize</item_title>
+    <item_desc>Activate or deactivate the slide randomization.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>86</item_sort>
+  </row>
+  <row>
+    <id>77</id>
+    <item_id>slider_controls</item_id>
+    <item_title>Slider Controls</item_title>
+    <item_desc>Activate or deactivate the slider controls.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>87</item_sort>
+  </row>
+  <row>
+    <id>78</id>
+    <item_id>slider_pauseonhover</item_id>
+    <item_title>Slider Pause On Hover</item_title>
+    <item_desc>Pause on hover on or off.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>88</item_sort>
+  </row>
+  <row>
+    <id>79</id>
+    <item_id>slider_pauseonaction</item_id>
+    <item_title>Slider Pause On Action</item_title>
+    <item_desc>Pause on action on or off.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>89</item_sort>
+  </row>
+  <row>
+    <id>80</id>
+    <item_id>contactheadline</item_id>
+    <item_title>Contact</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>90</item_sort>
+  </row>
+  <row>
+    <id>81</id>
+    <item_id>contact_page_settings</item_id>
+    <item_title>Contact Page Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Contact Page Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>91</item_sort>
+  </row>
+  <row>
+    <id>82</id>
+    <item_id>value_gmapsactive</item_id>
+    <item_title>Google Maps Active</item_title>
+    <item_desc>Check if you want to show the google maps feature on the contact page.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>92</item_sort>
+  </row>
+  <row>
+    <id>83</id>
+    <item_id>value_gmapslat</item_id>
+    <item_title>Google Maps Latitude</item_title>
+    <item_desc>The latitude of your map location.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>93</item_sort>
+  </row>
+  <row>
+    <id>84</id>
+    <item_id>value_gmapslong</item_id>
+    <item_title>Google Maps Longitude</item_title>
+    <item_desc>The longitude of your map location.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>94</item_sort>
+  </row>
+  <row>
+    <id>85</id>
+    <item_id>value_gmapsdefaultzoom</item_id>
+    <item_title>Google Maps Default Zoom</item_title>
+    <item_desc>The starting zoom setting.&amp;lt;br/&amp;gt;Example: &amp;lt;strong&amp;gt;14&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>95</item_sort>
+  </row>
+  <row>
+    <id>86</id>
+    <item_id>value_gmapsclickzoom</item_id>
+    <item_title>Google Maps Click Zoom</item_title>
+    <item_desc>The zoom setting when location marker is clicked. &amp;lt;br/&amp;gt;Example: &amp;lt;strong&amp;gt;17&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>96</item_sort>
+  </row>
+  <row>
+    <id>87</id>
+    <item_id>value_gmapslocation</item_id>
+    <item_title>Google Maps Location Title</item_title>
+    <item_desc>The text when hovering over the location marker.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>97</item_sort>
+  </row>
+  <row>
+    <id>88</id>
+    <item_id>email_contactform</item_id>
+    <item_title>Contact Form Email Address</item_title>
+    <item_desc>The email address the contact form mails are being send to.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>98</item_sort>
+  </row>
+  <row>
+    <id>89</id>
+    <item_id>quick_contact_widget</item_id>
+    <item_title>Quick Contact Widget</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>99</item_sort>
+  </row>
+  <row>
+    <id>90</id>
+    <item_id>quickcontact_widget_settings</item_id>
+    <item_title>Quick Contact Widget Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Quick Contact Widget Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>100</item_sort>
+  </row>
+  <row>
+    <id>91</id>
+    <item_id>email_quickcontact</item_id>
+    <item_title>Quick Contact Widget Email Address</item_title>
+    <item_desc>The email address the quick contact widget messages are send to.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>101</item_sort>
+  </row>
+  <row>
+    <id>92</id>
+    <item_id>twitter_widget</item_id>
+    <item_title>Twitter Widget</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>102</item_sort>
+  </row>
+  <row>
+    <id>93</id>
+    <item_id>twitter_widget_settings</item_id>
+    <item_title>Twitter Widget Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Twitter Widget Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>103</item_sort>
+  </row>
+  <row>
+    <id>94</id>
+    <item_id>value_twitteraccount</item_id>
+    <item_title>Twitter Account Name</item_title>
+    <item_desc>The twitter account used to display tweets from in the twitter widget.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>104</item_sort>
+  </row>
+  <row>
+    <id>95</id>
+    <item_id>value_tweetcount</item_id>
+    <item_title>Twitter Tweets Count</item_title>
+    <item_desc>The number of tweets shown by the twitter widget.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>105</item_sort>
+  </row>
+  <row>
+    <id>96</id>
+    <item_id>background</item_id>
+    <item_title>Background</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>106</item_sort>
+  </row>
+  <row>
+    <id>97</id>
+    <item_id>background_tile_settings</item_id>
+    <item_title>Background Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Background Tile Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>107</item_sort>
+  </row>
+  <row>
+    <id>98</id>
+    <item_id>img_bgtile</item_id>
+    <item_title>Site Background Tile</item_title>
+    <item_desc>This is the default background tile for the site.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;strong&amp;gt;It is only used when no background image is specified on the corresponding page / post&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>108</item_sort>
+  </row>
+  <row>
+    <id>99</id>
+    <item_id>img_bgdefault</item_id>
+    <item_title>Default Site Background Image</item_title>
+    <item_desc>This is the default background image for the site.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;strong&amp;gt;It is only used when no background image is specified on the corresponding page / post and no background tile is specified above.&amp;lt;/strong&amp;gt;</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>109</item_sort>
+  </row>
+  <row>
+    <id>100</id>
+    <item_id>search</item_id>
+    <item_title>Search</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>110</item_sort>
+  </row>
+  <row>
+    <id>101</id>
+    <item_id>search_settings</item_id>
+    <item_title>Search Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Search Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>111</item_sort>
+  </row>
+  <row>
+    <id>102</id>
+    <item_id>value_searchresultsnumber</item_id>
+    <item_title>Number Of Search Results Per Page</item_title>
+    <item_desc>The number of maximum search results you want to see on one page.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>112</item_sort>
+  </row>
+  <row>
+    <id>103</id>
+    <item_id>portfolio</item_id>
+    <item_title>Portfolio</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>113</item_sort>
+  </row>
+  <row>
+    <id>104</id>
+    <item_id>portfolio_settings</item_id>
+    <item_title>Portfolio Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Portfolio Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>114</item_sort>
+  </row>
+  <row>
+    <id>105</id>
+    <item_id>value_portfolioentrynumber</item_id>
+    <item_title>Number Of Portfolio Entries Per Page</item_title>
+    <item_desc>The number of portfolio entries per page on the portfolio with sidebar page.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>115</item_sort>
+  </row>
+  <row>
+    <id>106</id>
+    <item_id>value_portfoliosingledate</item_id>
+    <item_title>Portfolio Single Post Layout</item_title>
+    <item_desc>This option changes the layout of the portfolio posts on detail pages.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Date Box,No Date Box</item_options>
+    <item_sort>116</item_sort>
+  </row>
+  <row>
+    <id>112</id>
+    <item_id>value_portfoliosidebardate</item_id>
+    <item_title>Portfolio Overview Post Layout</item_title>
+    <item_desc>The layout of the portfolio posts on the overview page with sidebar.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Date Box,No Date Box</item_options>
+    <item_sort>117</item_sort>
+  </row>
+  <row>
+    <id>107</id>
+    <item_id>value_portfoliopostinfo</item_id>
+    <item_title>Portfolio Single Post Info</item_title>
+    <item_desc>You can select which post info items you would like to show for portfolio entries detail pages.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Date,Categories,Author,Comments</item_options>
+    <item_sort>118</item_sort>
+  </row>
+  <row>
+    <id>113</id>
+    <item_id>value_portfoliooverviewpostinfo</item_id>
+    <item_title>Portfolio Overview Post Info</item_title>
+    <item_desc>You can select which post info items you would like to show for portfolio entries on the portfolio overview page with sidebar.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Date,Categories,Author,Comments</item_options>
+    <item_sort>119</item_sort>
+  </row>
+  <row>
+    <id>108</id>
+    <item_id>blog</item_id>
+    <item_title>Blog</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>120</item_sort>
+  </row>
+  <row>
+    <id>109</id>
+    <item_id>blog_settings</item_id>
+    <item_title>Blog Settings</item_title>
+    <item_desc>&amp;lt;h1 style=&amp;quot;color:#33759b&amp;quot;&amp;gt;Blog Settings&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>121</item_sort>
+  </row>
+  <row>
+    <id>110</id>
+    <item_id>number_of_blog_entries_per_page</item_id>
+    <item_title>Number Of Blog Entries Per Page</item_title>
+    <item_desc>Note that the number of blog posts per page is set with the native WordPress functionality under &amp;quot;Settings -&amp;gt; Reading&amp;quot;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>122</item_sort>
+  </row>
+  <row>
+    <id>111</id>
+    <item_id>value_blogpostdate</item_id>
+    <item_title>Blog Single Post Layout</item_title>
+    <item_desc>This option changes the layout of the single blog posts.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Date Box,No Date Box</item_options>
+    <item_sort>123</item_sort>
+  </row>
+  <row>
+    <id>114</id>
+    <item_id>value_blogoverviewpostdate</item_id>
+    <item_title>Blog Overview Post Layout</item_title>
+    <item_desc>This option changes the layout of the overview page blog posts.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Date Box,No Date Box</item_options>
+    <item_sort>124</item_sort>
+  </row>
+  <row>
+    <id>115</id>
+    <item_id>value_blogpostinfo</item_id>
+    <item_title>Blog Single Post Info</item_title>
+    <item_desc>You can select which post info items you would like to show for single blog post pages.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Date,Categories,Author,Comments</item_options>
+    <item_sort>125</item_sort>
+  </row>
+  <row>
+    <id>116</id>
+    <item_id>value_blogoverviewpostinfo</item_id>
+    <item_title>Blog Overview Post Info</item_title>
+    <item_desc>You can select which post info items you would like to show for blog posts on the blog overview page.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Date,Categories,Author,Comments</item_options>
+    <item_sort>126</item_sort>
+  </row>
+</apewp_option_tree>

@@ -1,0 +1,108 @@
+/*
+side bar Text widget styles
+*/
+.about-widget .phone-number {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.about-widget p {
+    margin-top: -10px;
+}
+
+/*
+collapseomatic plugin overrides
+*/
+.collapseomatic {
+    background-position: left;
+    padding: 10px 0 10px 24px !important;
+    margin-left: 10px;
+}
+
+.collapseomatic_content ul {
+    list-style: disc inside;
+    margin-left: 10px;
+}
+
+.collapse-link-wrapper {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(102, 43, 102, 0.4);
+}
+
+.colomat-hover {
+/*
+    background-color: white;
+*/
+    color: #422142;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/*
+site overrides
+*/
+
+h1 {
+    color: #999;
+    font-size: 42px;
+    letter-spacing: 0.2em;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #999;
+    /*text-shadow: 2px 2px 2px #000025;*/
+    font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
+}
+
+.ddsmoothmenu ul li a {
+    text-shadow: 0 0 1px rgba(102, 43, 102, 0.4);
+    font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
+}
+
+#faq-block .single-faq .faq-question:hover {
+    color: #422142;
+    text-decoration: underline;
+}
+
+.footer button {
+    background-color: #422142;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        display: block;
+        text-align: center;
+        float: none;
+        padding-bottom: 30px;
+    }
+    .mainmenu {
+        margin-top: 5px;
+    }
+    h3.logophone {
+        display: block !important;
+        text-align: center;
+    }
+    h3.logophone a {
+        font-size: 40px;
+    }
+
+    .socialholder {
+        text-align: center;
+    }
+    .table {
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+/*
+.collapse-section-wrapper {
+    border: 1px solid #422142;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+*/

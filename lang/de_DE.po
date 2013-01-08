@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apex Responsive Portfolio WordPress Theme v1 (WP 3.3.1)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-02-14 14:07+0000\n"
+"Last-Translator: damojo <info@damojothemes.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:78
+#: archive.php:103
+#: category.php:59
+#: category.php:84
+#: index.php:57
+#: index.php:82
+#: portfolio_sidebar.php:80
+#: portfolio_sidebar.php:105
+#: search.php:72
+#@ apex
+msgid "Read More"
+msgstr "Mehr"
+
+#: archive.php:102
+#: category.php:83
+#: index.php:81
+#: portfolio_sidebar.php:104
+#: single.php:86
+#: single_portfolio.php:87
+#@ apex
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: archive.php:102
+#: category.php:83
+#: index.php:81
+#: portfolio_sidebar.php:104
+#: single.php:86
+#: single_portfolio.php:87
+#@ apex
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: archive.php:102
+#: category.php:83
+#: index.php:81
+#: portfolio_sidebar.php:104
+#: single.php:86
+#: single_portfolio.php:87
+#@ apex
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: archive.php:114
+#: archive.php:181
+#: category.php:95
+#: homepage.php:177
+#: homepage_2demo.php:156
+#: index.php:93
+#: portfolio_full.php:109
+#: portfolio_sidebar.php:116
+#: search.php:83
+#: single.php:103
+#: single_portfolio.php:104
+#@ apex
+msgid "Oops, we could not find what you were looking for..."
+msgstr "Ups, wir konnten leider nicht finden wonach sie gesucht haben."
+
+#: archive.php:170
+#: homepage.php:166
+#: homepage_2demo.php:145
+#: portfolio_full.php:98
+#@ apex
+msgid "Visit Project"
+msgstr "Projekt ansehen"
+
+#: comments.php:13
+#: contact.php:21
+#: functions/template/theme_widgets.php:275
+#@ apex
+msgid "Name *"
+msgstr "Name *"
+
+#: comments.php:14
+#: contact.php:22
+#: functions/template/theme_widgets.php:276
+#@ apex
+msgid "Email *"
+msgstr "Email *"
+
+#: comments.php:15
+#@ apex
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:16
+#: contact.php:25
+#: functions/template/theme_widgets.php:277
+#@ apex
+msgid "Message *"
+msgstr "Nachricht *"
+
+#: comments.php:17
+#@ apex
+msgid "Submit Comment"
+msgstr "Kommentar abschicken"
+
+#: comments.php:18
+#@ apex
+msgid "You are logged in as"
+msgstr "Sie sind eingeloggt als"
+
+#: comments.php:19
+#@ apex
+msgid "Click here to"
+msgstr "Hier klicken zum"
+
+#: comments.php:20
+#@ apex
+msgid "Log out"
+msgstr "Ausloggen"
+
+#: comments.php:24
+#@ apex
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Post ist passwortgeschützt. Bitte das Passwort eingeben um Kommentare lesen zu können."
+
+#: comments.php:29
+#@ apex
+msgid "Comments"
+msgstr "Kommentare"
+
+#: comments.php:36
+#@ apex
+msgid "Older Comments "
+msgstr "Ältere Kommentare"
+
+#: comments.php:37
+#@ apex
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:44
+#@ apex
+msgid "Leave A Reply"
+msgstr "Einen Kommentar hinterlassen"
+
+#: comments.php:44
+#@ apex
+msgid "Reply To "
+msgstr "Antwort auf"
+
+#: contact.php:23
+#@ apex
+msgid "Address"
+msgstr "Addresse"
+
+#: contact.php:24
+#@ apex
+msgid "Phone"
+msgstr "Telefon"
+
+#: contact.php:26
+#@ apex
+msgid "Send Message"
+msgstr "Nachricht abschicken"
+
+#: contact.php:27
+#: functions/template/theme_widgets.php:279
+#@ apex
+msgid "Error! Please correct marked fields."
+msgstr "Fehler! Bitte die markierten Felder korrigieren."
+
+#: contact.php:28
+#: functions/template/theme_widgets.php:280
+#@ apex
+msgid "Message send successfully!"
+msgstr "Nachricht erfolgreich gesendet."
+
+#: contact.php:29
+#: functions/template/theme_widgets.php:281
+#@ apex
+msgid "Sending..."
+msgstr "Sende..."
+
+#: functions/template/theme_portfolio_functions.php:36
+#: functions/template/theme_sidebars_functions.php:36
+#@ default
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: functions/template/theme_post_comments.php:9
+#@ apex
+msgid "Your Comment Is Awaiting Moderation."
+msgstr "Ihr Kommentar muss freigeschaltet werden."
+
+#: functions/template/theme_post_comments.php:22
+#, php-format
+#@ apex
+msgid "%1$s"
+msgstr "%1$s"
+
+#: functions/template/theme_post_comments.php:22
+#: functions/template/theme_post_comments.php:35
+#@ apex
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: functions/template/theme_post_comments.php:35
+#@ apex
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions/template/theme_post_customtypes.php:22
+#@ default
+msgid "Portfolio ''"
+msgstr ""
+
+#: functions/template/theme_widgets.php:278
+#@ apex
+msgid "Send"
+msgstr "Abschicken"
+
+#: header.php:123
+#@ apex
+msgid "Navigation"
+msgstr "Navigation"
+
+#: homepage.php:132
+#: homepage_2demo.php:111
+#: portfolio_full.php:64
+#@ apex
+msgid "All Projects"
+msgstr "Alle Projekte"
+
+#: search.php:19
+#@ apex
+msgid "Hits For"
+msgstr "Treffer für"
+
+#: searchform.php:8
+#@ apex
+msgid "Enter Search..."
+msgstr "Suche eingeben..."
+
+#: archive.php:10
+#: category.php:10
+#: index.php:10
+#: single.php:11
+#: single_portfolio.php:11
+#@ apex
+msgid "in"
+msgstr "in"
+
+#: archive.php:11
+#: category.php:11
+#: index.php:11
+#: single.php:12
+#: single_portfolio.php:12
+#@ apex
+msgid "by"
+msgstr "von"
+
+#: js/templatejs.php:532
+#@ apex
+msgid "a minute ago"
+msgstr "vor einer Minute"
+
+#: js/templatejs.php:534
+#@ apex
+msgid "couple of minutes ago"
+msgstr "vor ein paar Minuten"
+
+#: js/templatejs.php:536
+#@ apex
+msgid "minutes ago"
+msgstr "Minuten alt"
+
+#: js/templatejs.php:538
+#@ apex
+msgid "an hour ago"
+msgstr "eine Stunde alt"
+
+#: js/templatejs.php:540
+#@ apex
+msgid "hours ago"
+msgstr "Stunden alt"
+
+#: js/templatejs.php:542
+#@ apex
+msgid "1 day ago"
+msgstr "Vor einem Tag"
+
+#: js/templatejs.php:544
+#@ apex
+msgid "days ago"
+msgstr "Tage alt"
+

@@ -1,0 +1,100 @@
+/*
+Theme Name: Apex Responsive Portfolio WordPress Theme
+Theme URI: http://apex.damojothemes.com
+Description: WordPress Theme by <a href="http://themeforest.net/user/damojo/profile?ref=damojo">Damojo</a>
+Version: 1.3.1
+Author: Damojo
+Author URI: http://themeforest.net/user/damojo/profile?ref=damojo
+*/
+
+/* 
+-----------------------------------------------------------------
+FOR TEMPLATE STYLES SEE CSS/SCREEN.PHP
+-----------------------------------------------------------------
+*/
+
+/* WP CORE STYLES */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+img.size-auto,
+img.size-large,
+img.size-full,
+img.size-medium {
+	max-width: 100%;
+	height: auto;
+}
+
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 20px;
+}
+
+.bypostauthor {}
+.sticky{}
+.gallery-caption{}
