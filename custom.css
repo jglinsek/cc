@@ -1,3 +1,50 @@
+.section-content {
+    margin-top: 20px;
+}
+.section-content ul {
+    list-style: disc inside;
+    margin-left: 10px;
+}
+.section-content ul li{
+    margin: 5px;
+}
+
+/*
+in-page navigation (smooth scrolling)
+*/
+.in-page-nav {
+    position: fixed;
+    top: 220px;
+    display: block;
+    background-color: #F7F7F7;
+    margin-left: -170px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    z-index: 100;
+}
+.in-page-nav:hover {
+}
+.in-page-nav li {
+    margin: 0;
+    border: 1px solid #ccc;
+}
+.in-page-nav li:hover {
+    background-color: #fff;
+}
+.in-page-nav a {
+    display: block;;
+    padding: 15px;
+    font-size: .9em;
+    font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
+    font-weight: bold;
+}
+.section-header {
+    margin: 60px 0 0 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
 /*
 side bar Text widget styles
 */
@@ -11,32 +58,10 @@ side bar Text widget styles
 }
 
 /*
-collapseomatic plugin overrides
+testimonials overrides
 */
-.collapseomatic {
-    background-position: left;
-    padding: 10px 0 10px 24px !important;
-    margin-left: 10px;
-}
-
-.collapseomatic_content ul {
-    list-style: disc inside;
-    margin-left: 10px;
-}
-
-.collapse-link-wrapper {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(102, 43, 102, 0.4);
-}
-
-.colomat-hover {
-/*
-    background-color: white;
-*/
-    color: #422142;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
+#ivycat-testimonial {
+    height: 550px;
 }
 
 /*
@@ -62,13 +87,48 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
 }
 
+/*
+FAQ customizations
+*/
+/*
 #faq-block .single-faq .faq-question:hover {
     color: #422142;
     text-decoration: underline;
 }
+*/
+.single-faq {
+    margin: 15px 0;
+}
+.single-faq:hover {
+    background-color: #fff;
+}
+.single-faq h6 {
+    margin-left: 10px;
+    float: left;
+    width: 30%;
+    color: #422142;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    padding-top: 20px;
+}
+.faq-answer {
+    float: left;
+    width: 62%;
+    margin: 0 5px 0 20px;
+}
+
 
 .footer button {
     background-color: #422142;
+}
+@media only screen and (max-width: 1249px) {
+    /*
+    hide in-page navigation (smooth scrolling)
+    */
+    .in-page-nav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -88,6 +148,14 @@ h1, h2, h3, h4, h5, h6 {
     h3.logophone a {
         font-size: 40px;
     }
+
+    .single-faq h6 {
+        width: 50%;
+    }
+    .faq-answer {
+        width: 90%;
+    }
+
 
     .socialholder {
         text-align: center;

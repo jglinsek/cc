@@ -87,7 +87,7 @@
 </head>
 
 <body <?php body_class(); ?>> 
-
+    <a name="top"></a>
     <!-- Site Backgrounds
     ================================================== -->
     
