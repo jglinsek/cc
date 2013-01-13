@@ -299,15 +299,9 @@ function hoverEffects() {
 	
 	/* Button Hover */
 	jQuery("a.button, button").hover(function() {
-		jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
-	},function() {
-		jQuery(this).animate({ backgroundColor: "#222" },{duration:300,queue:false}, 'easeOutSine');
-	});
-    jQuery(".footer button").unbind('mouseenter mouseleave');
-    jQuery(".footer button").hover(function() {
-        jQuery(this).animate({ backgroundColor: '#666' },{duration:200,queue:false}, 'easeOutSine');
+        jQuery(this).animate({ backgroundColor: '#fff', color: <?php echo $apex_highlightcolor ?>},{duration:200,queue:false}, 'easeOutSine');
     },function() {
-        jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?> },{duration:300,queue:false}, 'easeOutSine');
+        jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?>, color: '#fff' },{duration:300,queue:false}, 'easeOutSine');
     });
 
 	jQuery("a.bigplus, a.bigdoc, a.bigcomment").hover(function() {

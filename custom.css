@@ -8,6 +8,20 @@
 .section-content ul li{
     margin: 5px;
 }
+a.contact-link {
+    font-size: 1.2em;
+}
+.page-location {
+    text-align: center;
+}
+button {
+    background-color: #422142;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
+    padding: 8px;
+}
+
 
 /*
 in-page navigation (smooth scrolling)
@@ -48,6 +62,9 @@ in-page navigation (smooth scrolling)
 /*
 side bar Text widget styles
 */
+.about-widget {
+    text-align: center;
+}
 .about-widget .phone-number {
     font-size: 30px;
     white-space: nowrap;
@@ -55,7 +72,41 @@ side bar Text widget styles
 
 .about-widget p {
     margin-top: -10px;
+    color: #422142;
+    font-size: .95em;
+    font-weight: bold;
 }
+
+.hours-widget div {
+    border-bottom: thin dashed #ddd;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    line-height: 1.1;
+    font-size: .9em;
+}
+.hours-widget .hours-day {
+    font-weight: bold;
+}
+.hours-widget .hours-open {
+    float: right;
+    text-align: right;
+}
+
+.footer .hours-widget div {
+    border-bottom: thin dashed #333;
+    margin-bottom: 20px;
+    font-size: .8em;
+}
+/*
+.hours-widget .hours-day {
+    font-weight: bold;
+}
+.hours-widget .hours-open {
+    float: right;
+    text-align: right;
+}
+*/
+
 
 /*
 testimonials overrides
@@ -117,11 +168,51 @@ FAQ customizations
     width: 62%;
     margin: 0 5px 0 20px;
 }
+/*
+footer overrides
+*/
 
-
-.footer button {
-    background-color: #422142;
+.footer input[type='text'],
+.footer textarea {
+    color: #666;
 }
+
+.footer input[type='text']:focus,
+.footer textarea:focus {
+    color: #333;
+}
+
+.footer-location {
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-location h6 {
+    font-size: 1.2em;
+}
+.footer-location .contact-link {
+    font-size: 1em;
+}
+.footer-location .location-address {
+    margin-bottom: 10px;
+}
+
+/*
+responsive google map
+*/
+.google-map img {
+    max-width: 100%;
+    opacity: 0;
+}
+.google-map a {
+    display: block;
+    background-image: url(http://maps.google.com/maps/api/staticmap?size=640x640&zoom=14&maptype=hybrid&markers=color:green|510+Freeport+Ave+NW,+Suite+F+Elk+River,+MN+55330&sensor=false&scale=2);
+    background-position: center;
+}
+
+.google-map a.small-map {
+    background-image: url(http://maps.google.com/maps/api/staticmap?size=240x240&zoom=12&maptype=hybrid&markers=color:green|510+Freeport+Ave+NW,+Suite+F+Elk+River,+MN+55330&sensor=false&scale=2);
+}
+
 @media only screen and (max-width: 1249px) {
     /*
     hide in-page navigation (smooth scrolling)
@@ -174,3 +265,4 @@ FAQ customizations
     border-radius: 3px;
 }
 */
+
