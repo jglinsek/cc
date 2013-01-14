@@ -363,12 +363,11 @@ function hoverEffects() {
 	},function() {
 		jQuery(this).animate({ backgroundColor: "#222" },{duration:300,queue:false}, 'easeOutSine');
 	});
-	
-	/* Link Hover */
-	jQuery("a").not("a.button, a.bigplus, .footer a, .flex-caption a, .mainmenu a, a.titlelink, a.link, a.linkbg, .subline a, h6 a, h5 a, h4 a, h3 a, h2 a, h1 a, .blogpages li a").hover(function() {
-		jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
+
+	jQuery("a").not("a:has(img), .logo a, a.button, a.bigplus, .footer a, .subfooter a, .flex-caption a, .mainmenu a, a.titlelink, a.link, a.linkbg, .subline a, h6 a, h5 a, h4 a, h3 a, h2 a, h1 a, .blogpages li a").hover(function() {
+		jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?>, color: "#fff" },{duration:200,queue:false}, 'easeOutSine');
 	},function() {
-		jQuery(this).animate({ color: "#333" },{duration:300,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ backgroundColor: "#f7f7f7", color: <?php echo $apex_highlightcolor ?> },{duration:300,queue:false}, 'easeOutSine');
 	});
 	jQuery(".blogpages li a").not(".blogpages li a.selected").hover(function() {
 		jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
@@ -381,7 +380,7 @@ function hoverEffects() {
 		jQuery(this).animate({ color: "#000" },{duration:300,queue:false}, 'easeOutSine');
 	});
 	jQuery(".footer a").hover(function() {
-		jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ color: "#999" },{duration:200,queue:false}, 'easeOutSine');
 	},function() {
 		jQuery(this).animate({ color: "#ccc" },{duration:300,queue:false}, 'easeOutSine');
 	});
@@ -391,10 +390,10 @@ function hoverEffects() {
 		jQuery(this).animate({ color: "#fff" },{duration:300,queue:false}, 'easeOutSine');
 	});
 	jQuery("a.link, .replylink a").hover(function() {
-		jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ color: "#fff", backgroundColor: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
 		jQuery(this).css("border-bottom-color", <?php echo $apex_highlightcolor ?>);
 	},function() {
-		jQuery(this).animate({ color: "#333" },{duration:300,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ color: "#333", backgroundColor: "#f7f7f7" },{duration:300,queue:false}, 'easeOutSine');
 		jQuery(this).css("border-bottom-color", "#999");
 	});
 	jQuery("a.linkbg").hover(function() {
@@ -405,7 +404,7 @@ function hoverEffects() {
 		jQuery(this).css("backgroundColor", <?php echo $apex_highlightcolor ?>);
 	});
 	jQuery(".subline a, .postinfo a").hover(function() {
-		jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ color: "#fff", backgroundColor: <?php echo $apex_highlightcolor ?> },{duration:200,queue:false}, 'easeOutSine');
 	},function() {
 		jQuery(this).animate({ color: "#777" },{duration:300,queue:false}, 'easeOutSine');
 	});

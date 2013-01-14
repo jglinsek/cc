@@ -8,9 +8,19 @@
 .section-content ul li{
     margin: 5px;
 }
-a.contact-link {
-    font-size: 1.2em;
+a {
+    font-size: 1.1em;
+    color: #422142;
+    text-decoration: underline;
+    background-color: #f7f7f7;
 }
+.footer a {
+    background-color: #222;
+}
+a:hover {
+    text-decoration: none;
+}
+
 .page-location {
     text-align: center;
 }
