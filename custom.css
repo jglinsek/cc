@@ -19,6 +19,16 @@
 .section-content ul li{
     margin: 5px;
 }
+
+.menu > li.menu-item > a {
+    padding-right: 5px !important;
+}
+.downarrowclass {
+    position: relative;
+    margin-right: 3px;
+    top: -1px;
+}
+
 a {
     font-size: 1.1em;
     color: #422142;
@@ -31,6 +41,15 @@ a {
 a:hover {
     text-decoration: none;
 }
+.privacy-link {
+    color: #999;
+    background-color: transparent;
+    font-size: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid thin #999;
+}
+
 
 .page-location {
     text-align: center;
@@ -43,6 +62,9 @@ button {
     padding: 8px;
 }
 
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited {
+    padding-left: 20px;
+}
 
 /*
 in-page navigation (smooth scrolling)
@@ -139,8 +161,9 @@ side bar Text widget styles
 /*
 testimonials overrides
 */
-#ivycat-testimonial {
-    height: 550px;
+.testimonialswidget_testimonial_list {
+    margin-bottom: 2em;
+    border-bottom: dotted thin #eee;
 }
 
 /*
