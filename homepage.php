@@ -310,7 +310,7 @@ $apex_folioalpha = 0;}
 <div class="sixteen columns row divide">
     <h3 class="titledivider"><?php echo $home_texttitle ?></h3>
     <?php if($home_abouttitletagtext!=""){ echo '<div class="rightlink"><a href="'.$home_abouttitletagurl.'" class="titlelink">'.$home_abouttitletagtext.'</a></div>'; } ?>
-    <div class="dividerline"></div>
+    <!--<div class="dividerline"></div>-->
 </div>
 
 <!-- Content Holder
