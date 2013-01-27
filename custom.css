@@ -66,6 +66,17 @@ button {
     padding-left: 20px;
 }
 
+.best-banner {
+    text-align: center;
+}
+.best-banner img {
+    -ms-transform:rotate(15deg); /* IE 9 */
+    -moz-transform:rotate(15deg); /* Firefox */
+    -webkit-transform:rotate(15deg); /* Safari and Chrome */
+    -o-transform:rotate(15deg); /* Opera */
+    transform:rotate(15deg);
+}
+
 /*
 in-page navigation (smooth scrolling)
 */
