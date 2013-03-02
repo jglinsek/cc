@@ -27,4 +27,21 @@ require_once(APEX_FUNCTIONS . '/theme_page_options.php');
 
 /* Theme Language */
 require_once(APEX_FUNCTIONS . '/theme_language.php');
+
+
+add_action( 'wp_enqueue_scripts', 'collyard_load_styles' );
+
+function collyard_load_styles() {
+    wp_register_style( 'base', get_template_directory_uri().'/css/base.php' );
+    wp_enqueue_style( 'base' );
+
+    wp_register_style( 'skeleton', get_template_directory_uri().'/css/skeleton.css' );
+    wp_enqueue_style( 'skeleton' );
+
+    wp_register_style( 'screen', get_template_directory_uri().'/css/screen.php' );
+    wp_enqueue_style( 'screen' );
+
+    wp_register_style( 'custom', get_template_directory_uri().'/custom.css' );
+    wp_enqueue_style( 'custom' );
+}
 ?>

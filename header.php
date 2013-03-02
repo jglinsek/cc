@@ -21,17 +21,6 @@
     ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     
-    <!-- Style Sheets
-    ================================================== -->
-    <?php
-        print '<style type="text/css" media="all">';
-        print '@import "'.get_template_directory_uri().'/css/base.php";';
-		print '@import "'.get_template_directory_uri().'/css/skeleton.css";';
-        print '@import "'.get_template_directory_uri().'/css/screen.php";';  
-        print '@import "'.get_template_directory_uri().'/custom.css";';
-        print '</style>';
-    ?>
-    
     <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" />
 
     <!--[if IE 7]>
