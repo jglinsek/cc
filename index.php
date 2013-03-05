@@ -35,10 +35,11 @@ Template Name: Blog Overview
 <!-- Content Holder -->
 <div class="eleven columns <?php echo $conoffset ?> row content <?php echo $conorient ?>">
 
+    <?php if (have_posts()) : ?>
+
     <h1>Our Blog</h1>
     <br/>
 
-    <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     
 		<?php
