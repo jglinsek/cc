@@ -286,7 +286,7 @@ if ( function_exists( 'get_option_tree') ) {
 	.blogimage .scalevid { margin-bottom: 6px;}
 	.blogdate { float: left; color: #fff; background: #422142; font-size: 48px; line-height: 48px; font-weight: bold; padding: 10px; padding-top: 4px; padding-bottom: 0px; width: 53px; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3); }
 	.blogdate .day { text-align: center; }
-	.blogdate span { float: left; font-size: 12px; line-height: 12px; font-weight: bold; color: #C3C3CF; margin-top: -3px; padding-bottom: 8px; }
+	.blogdate span { float: left; font-size: 12px; line-height: 12px; font-weight: bold; color: #C3C3CF; margin-top: -3px; padding-bottom: 8px; white-space: nowrap; }
 	.blogtitle { float: left; width: 100%; }
 	.blogtitle h4 { margin-top: -7px; margin-bottom: -3px; }
 	.postinfo { float: left; font-size: 11px; line-height: 20px; margin-bottom: 16px; color: #777; width: 100%; }

@@ -30,13 +30,16 @@ Template Name: Category
 ================================================== -->
 
 <div class="sixteen columns row divide notop">
-    <h3 class="titledivider"><?php echo $pagecategory[0]->cat_name.'.'; ?></h3>
+    <h3 class="titledivider"></h3>
     <div class="dividerline"></div>
 </div>
 
 <!-- Content Holder -->
 <div class="eleven columns <?php echo $conoffset ?> row content <?php echo $conorient ?>">
-	
+
+    <h1><?php echo $pagecategory[0]->cat_name; ?></h1>
+    <br/>
+
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     
