@@ -37,7 +37,7 @@
 
 <!-- Content Holder -->
 <div class="eleven columns <?php echo $conoffset ?> row content <?php echo $conorient ?>">
-	
+
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     
@@ -60,6 +60,9 @@
         ?>
 
             <!-- Blogpost -->
+            <h1><?php the_title(); ?></h1>
+            <br/>
+
             <div class="eleven columns row alpha blogpost noborderbottom <?php get_post_class(); ?>" id="post-<?php the_ID(); ?>">
             	<?php if($apex_postformat!=0){ ?>
                     <div class="eleven columns alpha blogimage">
@@ -92,14 +95,13 @@
                 <?php } else { ?>
                 <div class="eleven columns row alpha">
                 <?php } ?>
-                    <div class="blogtitle"><h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4></div>
-                    <div class="postinfo">
-                    <?php if (in_array("Date",$apex_blogsinglepostinfo)){ echo $post_time_daymonthyear ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
-					<?php if (in_array("Categories",$apex_blogsinglepostinfo)){ echo $apexlang_in ?> <?php the_category(' ',' '); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
-					<?php if (in_array("Author",$apex_blogsinglepostinfo)){ echo $apexlang_by ?> <?php the_author(); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
-					<?php if (in_array("Comments",$apex_blogsinglepostinfo)){ if ( comments_open() ) : ?><?php comments_popup_link(__('No Comments', 'apex'), __('One Comment', 'apex'), __( '% Comments', 'apex')); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php endif; } ?>
-                    </div>
                     <div class="postcontent"><?php the_content(); ?></div>
+                    <div class="postinfo">
+                        <?php if (in_array("Date",$apex_blogsinglepostinfo)){ echo $post_time_daymonthyear ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
+                        <?php if (in_array("Categories",$apex_blogsinglepostinfo)){ echo $apexlang_in ?> <?php the_category(' ',' '); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
+                        <?php if (in_array("Author",$apex_blogsinglepostinfo)){ echo $apexlang_by ?> <?php the_author(); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php } ?>
+                        <?php if (in_array("Comments",$apex_blogsinglepostinfo)){ if ( comments_open() ) : ?><?php comments_popup_link(__('No Comments', 'apex'), __('One Comment', 'apex'), __( '% Comments', 'apex')); ?> &nbsp; <span class="divide">|</span> &nbsp; <?php endif; } ?>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div> 
