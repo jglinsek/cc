@@ -91,7 +91,9 @@ jQuery(document).ready(function() {
     
     /* CSS fixes */
     jQuery('.postinfo .divide:last-child').css('display','none');
-	
+
+    /* Smooth Scroll*/
+	jQuery('.in-page-nav a').smoothScroll();
 });
 
 
