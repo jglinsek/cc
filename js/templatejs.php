@@ -97,17 +97,24 @@ jQuery(document).ready(function() {
 
     /* Remove empty Shareaholic <p> tag at the top of Pages.  */
     jQuery("p").filter(function(){
-    	var contents = jQuery(this).contents();
+    	var contents = jQuery(this).contents(),
+            hasComment = false,
+            hasOtherContent = false;
+
     	for (var key in contents) {
     		if (!contents[key].nodeValue) {continue;}
             //if the <p> contains a comment that starts like this, then we're gonna kill that <p>.
     		if (contents[key].nodeValue.trim().indexOf('Start Shareaholic LikeButtonSetTop') === 0) {
-    			return true;
+    			hasComment = true;
     		}
+            else if (contents[key].nodeValue.trim().indexOf('End Shareaholic') != 0) {
+                hasOtherContent = true;
+            }
     	}
-    	return false;
-    }).remove()
 
+    	return hasComment && hasOtherContent;
+    }).remove()
+ 
 });
 
 
