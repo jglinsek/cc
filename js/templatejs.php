@@ -94,6 +94,20 @@ jQuery(document).ready(function() {
 
     /* Smooth Scroll*/
 	jQuery('.in-page-nav a').smoothScroll();
+
+    /* Remove empty Shareaholic <p> tag at the top of Pages.  */
+    jQuery("p").filter(function(){
+    	var contents = jQuery(this).contents();
+    	for (var key in contents) {
+    		if (!contents[key].nodeValue) {continue;}
+            //if the <p> contains a comment that starts like this, then we're gonna kill that <p>.
+    		if (contents[key].nodeValue.trim().indexOf('Start Shareaholic LikeButtonSetTop') === 0) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }).remove()
+
 });
 
 
