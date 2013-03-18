@@ -114,7 +114,7 @@ jQuery(document).ready(function() {
 
     	return hasComment && hasOtherContent;
     }).remove()
- 
+
 });
 
 

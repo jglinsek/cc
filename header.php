@@ -10,7 +10,6 @@
     ================================================== -->
     <title><?php echo get_bloginfo('name'); ?> <?php wp_title(); ?></title>
     <meta http-equiv="Content-Type" content="<?php echo get_bloginfo('html_type'); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-	<meta name="description" content="<?php echo get_bloginfo('description'); ?>" />
     <meta name="robots" content="index, follow" />
 	<meta name="author" content="">
     <!--[if lt IE 9]>
@@ -53,7 +52,7 @@
     ***********************************************/-->
     
     <?php wp_head(); ?>
-    
+
     <?php
 		if ( function_exists( 'get_option_tree') ) {
 			$apex_logo = get_option_tree( 'img_logo' );

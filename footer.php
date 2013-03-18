@@ -23,7 +23,13 @@
 			$apex_link_rss = get_option_tree( 'value_sociallinkrss');
 		} 
 	?>
-	
+
+    <div class="container main">
+        <div class="sixteen columns row">
+            <?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>
+        </div>
+    </div>
+
     <!-- Change to class="container footerwrap full" for a full-width footer -->
 	<div class="container footerwrap <?php echo $f_full ?> <?php echo $f_widgets ?>">
         <div class="footer <?php echo $f_widgets ?>">
