@@ -93,7 +93,7 @@ jQuery(document).ready(function() {
     jQuery('.postinfo .divide:last-child').css('display','none');
 
     /* Smooth Scroll*/
-	jQuery('.in-page-nav a').smoothScroll();
+	jQuery('.in-page-nav a, #back-to-top a').smoothScroll();
 
     /* Remove empty Shareaholic <p> tag at the top of Pages.  */
     jQuery("p").filter(function(){
@@ -115,6 +115,14 @@ jQuery(document).ready(function() {
     	return hasComment && hasOtherContent;
     }).remove()
 
+    /* Show Back to Top link when scrolled*/
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > 100) {
+            jQuery('#back-to-top').fadeIn();
+        } else {
+            jQuery('#back-to-top').fadeOut();
+        }
+    });
 });
 
 

@@ -41,7 +41,8 @@ a {
 a:hover {
     text-decoration: none;
 }
-.privacy-link {
+a.privacy-link,
+a.privacy-link:visited{
     color: #999;
     background-color: transparent;
     font-size: 100%;
@@ -49,7 +50,20 @@ a:hover {
     padding-left: 10px;
     border-left: solid thin #999;
 }
-
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    z-index: 1000;
+    opacity: .7;
+}
+#back-to-top a,
+#back-to-top a:visited {
+    padding: 10px 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
 
 .page-location {
     text-align: center;
@@ -315,6 +329,10 @@ responsive google map
     .table {
         display: table;
         margin: 0 auto;
+    }
+
+    #back-to-top {
+        bottom: 15px;
     }
 }
 

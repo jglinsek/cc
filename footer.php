@@ -24,6 +24,10 @@
 		} 
 	?>
 
+    <div id="back-to-top">
+        <a href="#top" class="linkbg">&and; Back to Top</a>
+    </div>
+
     <div class="container main">
         <div class="sixteen columns row">
             <?php if(function_exists('selfserv_shareaholic')) { selfserv_shareaholic(); } ?>

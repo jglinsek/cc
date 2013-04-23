@@ -10,8 +10,6 @@
     ================================================== -->
     <title><?php echo get_bloginfo('name'); ?> <?php wp_title(); ?></title>
     <meta http-equiv="Content-Type" content="<?php echo get_bloginfo('html_type'); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-    <meta name="robots" content="index, follow" />
-	<meta name="author" content="">
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
