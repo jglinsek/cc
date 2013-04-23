@@ -330,6 +330,9 @@ responsive google map
         display: table;
         margin: 0 auto;
     }
+    .subfooter .socialtext {
+        margin-bottom: 40px;
+    }
 
     #back-to-top {
         bottom: 15px;

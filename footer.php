@@ -25,7 +25,7 @@
 	?>
 
     <div id="back-to-top">
-        <a href="#top" class="linkbg">&and; Back to Top</a>
+        <a href="#top" class="linkbg" title="Jump Back to the Top of the Page">&and; Top</a>
     </div>
 
     <div class="container main">
