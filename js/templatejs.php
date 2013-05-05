@@ -395,7 +395,7 @@ function hoverEffects() {
 		jQuery(this).animate({ backgroundColor: "#222" },{duration:300,queue:false}, 'easeOutSine');
 	});
 
-	jQuery("a").not("a:has(img), .logo a, a.button, a.bigplus, .footer a, .subfooter a, .flex-caption a, .mainmenu a, a.titlelink, a.link, a.linkbg, .subline a, h6 a, h5 a, h4 a, h3 a, h2 a, h1 a, .blogpages li a").hover(function() {
+	jQuery("a").not("a:has(img), .logo a, a.button, a.bigplus, .footer a, .subfooter a, .flex-caption a, .mainmenu a, a.titlelink, a.link, a.linkbg, .subline a, h6 a, h5 a, h4 a, h3 a, h2 a, h1 a, .blogpages li a, .in-page-nav a").hover(function() {
 		jQuery(this).animate({ backgroundColor: <?php echo $apex_highlightcolor ?>, color: "#fff" },{duration:200,queue:false}, 'easeOutSine');
 	},function() {
 		jQuery(this).animate({ backgroundColor: "#f7f7f7", color: <?php echo $apex_highlightcolor ?> },{duration:300,queue:false}, 'easeOutSine');
@@ -454,11 +454,18 @@ function hoverEffects() {
 	
 	/* Sub Menu Hover */
 	jQuery(".ddsmoothmenu ul li ul li a").hover(function() {
-		jQuery(this).animate({ color: "#000", backgroundColor: "#f7f7f7" },{duration:200,queue:false}, 'easeOutSine');
+		jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?>, backgroundColor: "#f7f7f7" },{duration:200,queue:false}, 'easeOutSine');
 	},function() {
 		jQuery(this).animate({ color: "#777", backgroundColor: "#fff" },{duration:200,queue:false}, 'easeOutSine');
 	});
-	
+
+    /* Inner Page Nav Menu Item Hover */
+    jQuery(".in-page-nav li a").hover(function() {
+        jQuery(this).animate({ color: <?php echo $apex_highlightcolor ?>, backgroundColor: "#f7f7f7" },{duration:200,queue:false}, 'easeOutSine');
+    },function() {
+        jQuery(this).animate({ color: "#777", backgroundColor: "#fff" },{duration:200,queue:false}, 'easeOutSine');
+    });
+
 	/* Image Hover */
 	jQuery('.hovering').hover(		
 		function() {
