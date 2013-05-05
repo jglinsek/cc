@@ -119,7 +119,7 @@ in-page navigation (smooth scrolling)
 }
 .in-page-nav a {
     display: block;;
-    padding: 15px;
+    padding: 13px 20px;
     font-size: 14px;
     font-family: 'PT Sans','Helvetica Neue',​Arial ,​sans-serif;
     font-weight: normal;
