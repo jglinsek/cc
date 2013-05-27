@@ -1,0 +1,32 @@
+index-welcome.aspx http://www.collyardchiro.com/
+index-news.aspx http://www.collyardchiro.com/blog/
+index-firstvisit.aspx http://www.collyardchiro.com/about-us/our-approach/
+index-aboutcc.aspx http://www.collyardchiro.com/about-us/
+index-testimonials.aspx http://www.collyardchiro.com/testimonials/
+index-location.aspx http://www.collyardchiro.com/about-us/our-location/
+
+chiro-whatis.aspx http://www.collyardchiro.com/services/chiropractic/
+chiro-ailments.aspx http://www.collyardchiro.com/services/chiropractic/
+chiro-faq.aspx http://www.collyardchiro.com/services/chiropractic/
+chiro-testimonials.aspx http://www.collyardchiro.com/testimonials/
+
+acupuncture-whatis.aspx http://www.collyardchiro.com/services/acupuncture/
+acupuncture-ailments.aspx http://www.collyardchiro.com/services/acupuncture/
+acupuncture-faq.aspx http://www.collyardchiro.com/services/acupuncture/
+acupuncture-testimonials.aspx http://www.collyardchiro.com/testimonials/
+
+eds-whatis.aspx http://www.collyardchiro.com/services/electrodermal-screening/
+eds-ailments.aspx http://www.collyardchiro.com/services/electrodermal-screening/
+eds-faq.aspx http://www.collyardchiro.com/services/electrodermal-screening/
+eds-testimonials.aspx http://www.collyardchiro.com/testimonials/
+
+other-productlist.aspx http://www.collyardchiro.com/products/
+other-prodofmonth.aspx http://www.collyardchiro.com/
+other-massage.aspx http://www.collyardchiro.com/services/massage/
+other-essentialoils.aspx http://www.collyardchiro.com/products/essential-oils/
+other-links.aspx http://www.collyardchiro.com/
+other-search.aspx http://www.collyardchiro.com/
+
+forms-main.aspx http://www.collyardchiro.com/forms/
+site-map.aspx http://www.collyardchiro.com/
+privacy-policy.aspx http://www.collyardchiro.com/privacy-policy/
