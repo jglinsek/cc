@@ -87,6 +87,15 @@
 
 <body <?php body_class(); ?>> 
     <a name="top"></a>
+    <div id="top-hover" class="container">
+        <span class="company">Collyard Chiropractic
+            <span class="contact">| <a href="tel:7632740377" class="linkbg">763-274-0377</a></span>
+        </span>
+        <span class="to-top">
+            <a href="#top" class="linkbg" title="Jump Back to the Top of the Page">&and; Back to the Top</a>
+        </span>
+    </div>
+
     <!-- Site Backgrounds
     ================================================== -->
     
