@@ -93,7 +93,9 @@ jQuery(document).ready(function() {
     jQuery('.postinfo .divide:last-child').css('display','none');
 
     /* Smooth Scroll*/
-	jQuery('.in-page-nav a, #top-hover a').smoothScroll();
+	jQuery('.in-page-nav a, #top-hover a').smoothScroll({
+        offset: -40
+    });
 
     /* Remove empty Shareaholic <p> tag at the top of Pages.  */
     jQuery("p").filter(function(){
