@@ -30,3 +30,19 @@ other-search.aspx http://www.collyardchiro.com/
 forms-main.aspx http://www.collyardchiro.com/forms/
 site-map.aspx http://www.collyardchiro.com/
 privacy-policy.aspx http://www.collyardchiro.com/privacy-policy/
+
+
+
+	<system.webServer>
+		<rewrite>
+			<rules>
+				<rule name="Redirect to WWW" stopProcessing="true">
+					<match url="(.*)" />
+					<conditions>
+						<add input="{HTTP_HOST}" pattern="^collyardchiro.com$" />
+					</conditions>
+					<action type="Redirect" url="http://www.collyardchiro.com/{R:1}" />
+				</rule>
+			</rules>
+		</rewrite>
+	</system.webServer>
